@@ -71,7 +71,7 @@ func main() {
 	if scoreHuman == scoreOpp {
 		fmt.Println("	Hmm a draw? You are very lucky human. Next time you won't be!")
 	} else if scoreHuman > scoreOpp {
-		fmt.Println("	%&!? NO. HOW. This is impossible!! Next time we play I will crush your soul.")
+		fmt.Println("	*&!? NO. HOW. This is impossible!! Next time we play I will crush your soul.")
 	} else {
 		fmt.Println("	HAHAHA. I laugh at your rock, paper, gopher skills.")
 	}
