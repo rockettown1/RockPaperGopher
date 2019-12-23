@@ -22,7 +22,6 @@ func main() {
 	scanner.Scan()
 	rounds := scanner.Text()
 	roundInt, err := strconv.Atoi(rounds)
-	// var skipped bool
 
 	//if the player entered something which wasn't a number, give them a second chance to enter correctly
 	if err != nil {
@@ -64,8 +63,9 @@ func main() {
 			scoreOpp++
 		}
 
-		fmt.Println("Your score: " + strconv.Itoa(scoreHuman))
-		fmt.Println("My score: " + strconv.Itoa(scoreOpp))
+		fmt.Println("	Your score: " + strconv.Itoa(scoreHuman))
+		fmt.Println("	My score: " + strconv.Itoa(scoreOpp))
+		fmt.Println()
 	}
 
 	if scoreHuman == scoreOpp {
